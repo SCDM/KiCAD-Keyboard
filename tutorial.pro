@@ -1,4 +1,4 @@
-update=mar 20 dic 2016 13:44:53 CET
+update=lun 15 mag 2017 15:47:54 CEST
 version=1
 last_client=kicad
 [general]
@@ -6,14 +6,20 @@ version=1
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=/home/wondersys/Documents/progetti kicad/my library;/home/wondersys/Documents/prova_teensy/esempio kicad/KiCAD-Keyboard-Tutorial-master/kicad_teensy-master
+[eeschema/libraries]
+LibName1=components
+LibName2=kicad_teensy-master/teensy
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=tutorial.net
-PadDrill=3.5
-PadDrillOvalY=3.5
-PadSizeH=5.99948
-PadSizeV=5.99948
+LastNetListRead=scdm_without_led.net
+PadDrill=2.7
+PadDrillOvalY=2.7
+PadSizeH=3.5
+PadSizeV=3.5
 PcbTextSizeV=2.032
 PcbTextSizeH=1.524
 PcbTextThickness=0.3048
@@ -25,9 +31,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.1524
 BoardOutlineThickness=0.381
 ModuleOutlineThickness=0.381
-[eeschema]
-version=1
-LibDir=/home/wondersys/Documents/progetti kicad/my library;/home/wondersys/Documents/prova_teensy/esempio kicad/KiCAD-Keyboard-Tutorial-master/kicad_teensy-master
-[eeschema/libraries]
-LibName1=components
-LibName2=kicad_teensy-master/teensy
