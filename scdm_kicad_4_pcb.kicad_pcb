@@ -3,9 +3,9 @@
   (general
     (links 361)
     (no_connects 0)
-    (area 51.285883 99.749695 479.445885 296)
+    (area 51.209499 99.609499 479.590501 240.990501)
     (thickness 1.6002)
-    (drawings 149)
+    (drawings 150)
     (tracks 2286)
     (zones 0)
     (modules 243)
@@ -8602,6 +8602,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 2.7) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Wondersys Srl" (at 342 191) (layer F.Adhes)
+    (effects (font (size 4 3) (thickness 0.3048) italic))
+  )
   (gr_line (start 51.4 240.8) (end 51.4 99.8) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 128.2 240.8) (end 51.4 240.8) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_line (start 128.2 223.8) (end 128.2 240.8) (angle 90) (layer Edge.Cuts) (width 0.381))
