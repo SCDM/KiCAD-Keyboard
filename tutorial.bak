@@ -3996,4 +3996,16 @@ F 3 "" H 15600 2400 60  0001 C CNN
 	1    15600 2400
 	1    0    0    -1  
 $EndComp
+Text Label 1350 1300 0    60   ~ 0
+GND
+Wire Wire Line
+	3100 4950 3100 5750
+Connection ~ 3100 5450
+Wire Wire Line
+	1550 1300 1150 1300
+Wire Wire Line
+	1150 1300 1150 4950
+Wire Wire Line
+	1150 4950 3100 4950
+Connection ~ 3100 5150
 $EndSCHEMATC
